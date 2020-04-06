@@ -13,17 +13,17 @@ function App() {
             <Provider store={store}>
                 <Router>
                     <Switch>
-                        <Route path={'/admin'} render={(routeProps) => {
-                            return <Admin {...routeProps}></Admin>
-                        }}></Route>
+                        <Route path={'/admin'} render={(routeProps: any) => {
+                            return <Admin {...routeProps}/>
+                        }}/>
                         {
                             mainRoutes.map(route => {
                                 return <Route key={route.pathName} path={route.pathName}
-                                              component={route.component}></Route>
+                                              component={route.component}/>
                             })
                         }
-                        <Redirect to="/admin" from="/" exact></Redirect>
-                        <Redirect to="/404"></Redirect>
+                        <Redirect to="/admin" from="/" exact/>
+                        <Redirect to="/404"/>
                     </Switch>
                 </Router>
             </Provider>
