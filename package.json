@@ -28,7 +28,7 @@
     "env-cmd": "^10.1.0",
     "firebase": "^7.13.1",
     "global": "^4.4.0",
-    "highcharts": "^8.0.4",
+    "highcharts": "^9.0.0",
     "highcharts-react-official": "^3.0.0",
     "html-to-draftjs": "^1.5.0",
     "immutable": "^4.0.0-rc.12",
