@@ -48,7 +48,7 @@
     "redux": "^4.0.5",
     "redux-thunk": "^2.3.0",
     "typescript": "~3.7.2",
-    "xlsx": "^0.15.6"
+    "xlsx": "^0.17.0"
   },
   "scripts": {
     "start": "PORT=3001 env-cmd -f .env.development react-app-rewired start",
